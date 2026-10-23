@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inno-Cyber Tech | Securing Durban's Digital Future</title>
+    <style>
+        :root {
+            --primary: #0A192F;
+            --secondary: #00B4D8;
+            --text-light: #F8F9FA;
+            --text-dark: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: var(--text-dark);
+        }
+        header {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 { margin: 0; font-size: 24px; }
+        .hero {
+            background-color: var(--primary);
+            color: var(--text-light);
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h2 { font-size: 36px; color: var(--secondary); }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 10px;
+        }
+        .services-list, .policies-list { list-style-type: none; padding: 0; }
+        .services-list li, .policies-list li { margin-bottom: 10px; font-weight: 500; }
+        .price { color: var(--secondary); font-weight: bold; float: right; }
+        .footer {
+            background-color: var(--primary);
+            color: var(--text-light);
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 50px;
+        }
+        .footer a { color: var(--secondary); text-decoration: none; margin: 0 10px; }
+        .ai-bot {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--secondary);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .ai-bot:hover { background-color: #0096b4; }
+        @media (max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Inno-Cyber Tech</h1>
+        <p>📍 Durban, KZN</p>
+    </header>
+
+    <div class="hero">
+        <h2>Securing Durban's Devices, Data, and Peace of Mind</h2>
+        <p>Multi-brand device tracking, real-time hotspot alerts, and SAPS-linked recovery.</p>
+    </div>
+
+    <div class="container">
+        <!-- Company Info -->
+        <div class="card">
+            <h3>Our Mission & Vision</h3>
+            <p><strong>Mission:</strong> To protect the digital lives and peace of mind of Durban’s students, tourists, and families by providing affordable, multi-brand device tracking, real-time Durban hotspot alerts, and rapid SAPS-linked recovery, ensuring no one loses their academic future, financial security, or connection to loved ones to theft.</p>
+            <p><strong>Vision:</strong> To become Africa's leading community-driven cybersecurity and device recovery network, making digital safety accessible and affordable for everyone, regardless of the device they use.</p>
+        </div>
+
+        <!-- Services & Pricing -->
+        <div class="card">
+            <h3>Our Services & Pricing</h3>
+            <ul class="services-list">
+                <li>Student Subscription <span class="price">R100/month</span></li>
+                <li>Community Member <span class="price">R120/month</span></li>
+                <li>Family Package (Up to 7 devices) <span class="price">R350/month</span></li>
+                <li>Tourist Pass (Once-off) <span class="price">R50</span></li>
+            </ul>
+            <p style="font-size: 14px; color: #666; margin-top: 15px;"><em>All plans include offline tracking, advanced firewall, panic button, and SAPS recovery support.</em></p>
+        </div>
+
+        <!-- Payment Process -->
+        <div class="card">
+            <h3>Payment Process</h3>
+            <p>We offer secure, flexible payment options tailored for South African users:</p>
+            <ul>
+                <li>💳 <strong>In-App Payments:</strong> Secure Credit/Debit card processing (Visa & Mastercard) and Instant EFT.</li>
+                <li>📱 <strong>Mobile Money:</strong> Integration with local platforms like SnapScan and Zapper.</li>
+                <li>🏦 <strong>Bank Transfer:</strong> Direct EFT for family packages and annual pre-paid plans.</li>
+                <li>💵 <strong>Cash:</strong> Accepted at physical campus activations via our on-ground ambassadors.</li>
+            </ul>
+        </div>
+
+        <!-- Company Policies -->
+        <div class="card">
+            <h3>Company Policies</h3>
+            <ul class="policies-list">
+                <li>🔒 <strong>Privacy Policy:</strong> We strictly comply with POPIA. Your personal data, location, and device information are encrypted and never sold to third parties.</li>
+                <li>💰 <strong>Refund Policy:</strong> Monthly subscriptions can be canceled anytime. Once-off tourist passes are non-refundable after 24 hours of activation.</li>
+                <li>⚖️ <strong>Terms of Service:</strong> SAPS recovery support is facilitated by our platform, but actual device recovery depends on law enforcement operations and user cooperation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer with Contact & Socials -->
+    <div class="footer">
+        <h3>Contact Us</h3>
+        <p>📞 Phone: +27 (0) 31 123 4567</p>
+        <p>✉️ Email: support@innocybertech.co.za</p>
+        <p>📍 Address: 123 Digital Hub, Umhlanga Ridge, Durban, 4319</p>
+        
+        <h3>Follow Us</h3>
+        <p>
+            <a href="#">Instagram</a> | 
+            <a href="#">YouTube</a> | 
+            <a href="#">LinkedIn</a>
+        </p>
+        <p style="font-size: 12px; margin-top: 20px; color: #888;">&copy; 2024 Inno-Cyber Tech. All rights reserved.</p>
+    </div>
+
+    <!-- AI Chatbot Widget -->
+    <div class="ai-bot" onclick="alert('Hi there! I am the Inno-Cyber AI Assistant. How can I help you secure your device today?')">
+        🤖 AI Assistant
+    </div>
+
+</body>
+</html>
